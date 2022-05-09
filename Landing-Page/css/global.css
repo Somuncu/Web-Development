@@ -15,11 +15,44 @@
 }
 
 .bg-dark-blue {
-    background: #060515;
+    background: #211e52;
 }
 
 .bg-light-blue {
     background : #716e9e;
+}
+
+/*Buttons*/
+.btn{
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+
+.btn-primary{
+    background: #716e9e;
+}
+
+.btn-primary:hover{
+    color: #716e9e;
+    background: white;
+    border: 0.5px solid #716e9e;
+}
+
+.btn-dark{
+    background: #333;
+}
+
+.btn-dark:hover{
+    color: #333;
+    background: white;
+    border: 0.5px solid #333;
+}
+
+.btn-block {
+    width: 100%;
+    text-align: center;
 }
 
 .container {

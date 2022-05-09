@@ -5,3 +5,11 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
+
+#training .items {
+    flex-direction: column;    
+}
+
+#training .items .item {
+    width: 100%;  
+}
